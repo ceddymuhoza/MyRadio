@@ -1,0 +1,13 @@
+2022-09-01 03:02:20.468 9402-9402/com.myradio E/AndroidRuntime: FATAL EXCEPTION: main
+    Process: com.myradio, PID: 9402
+    java.lang.NoSuchMethodError: No direct method <init>(Lcom/google/android/exoplayer2/trackselection/ExoTrackSelection$Factory;)V in class Lcom/google/android/exoplayer2/trackselection/DefaultTrackSelector; or its super classes (declaration of 'com.google.android.exoplayer2.trackselection.DefaultTrackSelector' appears in /data/app/com.myradio-2/base.apk)
+        at com.brentvatne.exoplayer.ReactExoplayerView.initializePlayerCore(ReactExoplayerView.java:551)
+        at com.brentvatne.exoplayer.ReactExoplayerView.access$1100(ReactExoplayerView.java:113)
+        at com.brentvatne.exoplayer.ReactExoplayerView$6.run(ReactExoplayerView.java:501)
+        at android.os.Handler.handleCallback(Handler.java:751)
+        at android.os.Handler.dispatchMessage(Handler.java:95)
+        at android.os.Looper.loop(Looper.java:154)
+        at android.app.ActivityThread.main(ActivityThread.java:6077)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:866)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:756)
